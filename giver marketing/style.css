@@ -1,0 +1,221 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;700&family=Nanum+Myeongjo:wght@700&family=Open+Sans&family=Oswald:wght@700&family=Righteous&family=Sora:wght@600&family=Urbanist:wght@500;600&display=swap');
+
+/*header*/
+.header-foto{
+    width: 100%;
+}
+
+
+
+
+/*section-1*/
+.section{
+    background: 
+                url(img/background\ foto\ header.png);
+   
+    height: 339px;   
+    width: auto;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.title-main{
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    width: 1080px;
+    max-width: 1080px;
+    height: 112px;
+    max-height: 112px;
+    border-radius: 50px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.44) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*section-2*/
+.main{
+    max-width: 85%;
+    width: 85%;
+    margin-left: 7%;
+}
+.section-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 75px;
+    
+   
+}
+.container-1{
+    
+    width: 448px;
+    max-width: 448px;
+    height: 785px;
+    max-height: 785px;
+    text-align: center;
+}
+.img-1{
+    margin-top: 75px;
+}
+.title-container{
+    font-size: 25px;
+    color: #E74C3C;
+    margin-top: 50px;
+}
+.dolar500{
+    margin-top: 25px;
+}
+.description{
+    margin-top: 50px;
+}
+.description-1{
+    line-height: 33px;
+    
+}
+
+.subscribe{
+    margin-top: 100px;
+}
+
+.container-2{
+    
+    width: 448px;
+    max-width: 448px;
+    height: 785px;
+    max-height: 785px;
+    text-align: center;
+}
+.img-2{
+    margin-top: 75px;
+}
+.description-2{
+    line-height: 35px;
+}
+
+.container-3{
+    
+    width: 448px;
+    max-width: 448px;
+    height: 785px;
+    max-height: 785px;
+    text-align: center;
+}
+.img-3{
+    margin-top: 75px;
+}
+.description-3{
+    line-height: 36px;
+}
+.container-4{
+    width: 448px;
+    max-width: 448px;
+    height: 994px;
+    max-height: 994px;
+    text-align: center;
+    margin-top: 50px;
+}
+.img-4{
+    margin-top: 75px;
+}
+.description-4{
+    line-height: 35px;
+}
+.subscribe-4{
+    margin-top: 50px;
+}
+
+.container-5{
+    
+    width: 448px;
+    max-width: 448px;
+    height: 994px;
+    max-height: 994px;
+    text-align: center;
+    margin-top: 50px;
+}
+.img-5{
+    margin-top: 75px;
+}
+.description-5{
+    line-height: 35px;
+}
+.subscribe-5{
+    margin-top: 268px;
+}
+
+
+.container-6{
+   
+    width: 448px;
+    max-width: 448px;
+    height: 994px;
+    max-height: 994px;
+    text-align: center;
+    margin-top: 50px;
+}
+.img-6{
+    margin-top: 75px;
+}
+.description-6{
+    line-height: 35px;
+}
+.subscribe-6{
+    margin-top: 195px;
+}
+.footer-foto{
+    margin-top: 50px;
+}
+.foto-end{
+    max-width: 1583px;
+}

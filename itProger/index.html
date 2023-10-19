@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML5 and CSS3 page</title>
+    <link rel="stylesheet" href="
+    main.css">
+</head>
+<body>
+    <header>
+        <div id="logo" onclick="slowScroll('#top')">
+            <span>itProger</span>
+        </div>
+        <div id="about">
+            <a href="#" title="Posibilitati" onclick="slowScroll('#main')">Posibilitati</a>
+            <a href="despre.html" onclick="slowScroll('#overiew')" title="Avantaje">Despre noi</a>
+            <a href="#" onclick="slowScroll('#contacts')" title="Contacte">Contacte</a>
+            <a href="#" onclick="slowScroll('#faq')" title="Raspunsuri la Intrebari">Raspunsuri la Intrebari</a>
+        </div>
+    </header>
+
+        <div id="top">
+            <h1>Programarea</h1>
+            <h3>o modalitate de a trai!</h3>
+        </div>
+
+        <div id="main">
+            <div class="intro">
+                <h2>Serviciile noastre va vor ajuta!</h2>
+                <span>O varietate mare,de ceea ce var putea ajuta</span>
+            </div>
+             <div class="text">
+                <span>În ziua de azi, toate companiile au un site web sau o altă formă de prezență online, iar nevoia de angajați în domeniul IT nu mai este limitată la un singur oraș sau țară sau chiar la o singură industrie. 
+
+                    Dacă nu știi de unde să începi, o poți face chiar în cadrul companiei la care lucrezi deja. Găsește un mod prin care să obții task-uri din domeniul tech și nu te sfii să ceri aceste task-uri cu voce tare. </span>
+            </div>
+        </div>
+
+    <div id="overview">
+        <h2>Prioritati</h2>
+        <h4>cu noi e mai usor</h4>
+
+
+    <div class="img">
+        <img src="https://www.loginworks.com/wp-content/uploads/2018/02/ruby-programming-language-a-guide-2.jpg" alt="">
+        <span>Invatarea limbajului Ruby pentru incepatori</span>
+    </div>
+    <div class="img">
+        <img src="https://qutucuq.com/wp-content/uploads/2013/11/adobe-photoshop-yukle.jpg" alt="">
+        <span>Lectii de PhotoShop pentru incepatori</span>
+    </div>
+    <div class="img">
+        <img src="https://blog.teamtreehouse.com/wp-content/uploads/2014/06/swift-logo.jpg" alt="">
+        <span>Lectii Swift pentru incepatori</span>
+    </div>
+    <div class="img">
+        <img src="https://i2.wp.com/www.realmicentral.com/wp-content/uploads/2021/04/Python.png?zoom=2&resize=750%2C375&ssl=1" alt="">
+        <span>Compunerea jocurilor pe Python 3 din PyGame</span>
+        </div>
+    </div>
+
+    <div id="contacts">
+        <center><h5>Parere</h5></center>
+        <form id="form_input">
+            <label for="name">Numele <span>*</span></label><br>
+            <input type="text" placeholder="Scriti Numele" name="name" id="name"><br>
+            <label for="email">Emailul Dvs <span>*</span></label><br>
+            <input type="email" placeholder="Scriti emailul " name="email" id="email"><br>
+            <label for="message">Mesaj <span>*</span></label><br>
+            <textarea placeholder="Scriti mesajul" name="message" id="message"></textarea><br>
+            <div id="mess_send" class="btn">Trimiteti</div>
+
+
+        </form>
+    </div>
+
+    <div id="faq">
+        <div>
+            <span class="title">Achitare</span><br>
+            <span class="heading">Cum va fi achitarea?</span>
+            <p>Achitarea Dumneavoastra va avea loc prin transfer pe cardul Visa sau Paypal.In dependenta de oportunitatea care o aveti!</p>
+        </div>
+        <div>
+            <span class="title">Informatie</span><br>
+            <span class="heading">Despre Noi?</span>
+            <p>Suntem o companie care activeaza in domeniul IT din 2015.Suntem unii dintre cei mai buni de pe piata noastra,si suntem fericiti sa va oferim tot cei mai bun si calitativ!</p>
+        </div>
+        <div>
+            <span class="title">Munca</span><br>
+            <span class="heading">Cauti de munca?</span>
+            <p>Daca esti in cautarea unui job de succes atunci aici ai sansa de a obtine un job de vis.Noi suntem in bucurosi de a ne creste echipa cu cei mai ambitiosi colegi noi,cu care vom putea imparti munca noastra draga </p>
+        </div>
+        
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script>
+        function slowScroll(id) {
+            $('html,body').animate({
+                scrollTop: $(id).offset().top
+            },500);
+        }  
+        $(document).on("scroll", function () {
+            if($(window).scrollTop() === 0)
+            $("header").removeClass("fixed");
+        else
+            $("header").attr("class","fixed");
+        });     
+    </script>
+
+</body>
+</html>
