@@ -1,0 +1,123 @@
+.section-1{
+    width: 100%;
+    max-width: 1400px;
+    background-image: url(/landing1/assests/img-Cookie-policy/bg.png);
+    background-position-x: 15px;
+    background-position-y: -80px;
+    height: 336px;
+    margin: 0 auto 80px auto;
+}
+.legal-title{
+    font-size: 24px;
+    color: #75808A;
+    text-align: center;
+    padding-top: 115px;
+    
+}
+.title-main{
+    font-size: 48px;
+    text-align: center;
+    padding-top: 24px;
+    margin:0 auto ;
+}
+.header-div{
+    width: 792px;
+    margin: 80px auto 80px auto;
+}
+.header-foto{
+    width: 792px;
+    height: 456px;
+
+}
+
+
+.section-2{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+table{
+    border: 1px solid #EEF2F6;
+    width: 1000px;
+    
+}
+.t{
+    padding: 24px 32px 23px 32px;
+    width: 218px;
+    font-size: 16px;
+    line-height: 34px;
+    border: 1px solid #EEF2F6;
+}
+.d{
+    color:#3d3d3d;
+    width: 651px;
+    padding: 24px 32px 24px 32px;
+    line-height: 34px;
+    font-size: 16px;
+}
+.section-3{
+    max-width: 1440px;
+    width: 100%;
+    height: 193px;
+    margin: 80px auto 0 auto;
+    background-color: #EEF2F67A;
+}
+.abouts-first{
+    font-size: 24px;
+    color: black;
+    
+}
+.facts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+.abouts{
+    color: #FF4171;
+    font-size: 16px;
+}
+
+.section-4{
+    width: 100%;
+    height: 94px;
+    background-color: #EEF2F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newsletter{
+    font-size: 25px;
+}
+.search{
+    width: 555px;
+    height: 46px;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+    margin-left: 50px;
+    border: 1px solid #FFFFFF;
+}
+.touch{
+    Width: 116px;
+    Height: 48px;
+    border: 1px solid #00F5BC;
+    border-radius: 50px;
+    background-color: #00F5BC;
+    font-size: 16px;
+    line-height: 44px;
+    text-align: center;
+    position: relative;
+    margin-left: -119px;
+}
+.touch-1{
+    color:#0F172A;
+    text-decoration: none;
+}
+
+
+
+
+

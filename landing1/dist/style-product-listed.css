@@ -1,0 +1,111 @@
+body{
+    background-image: url(/assests/img-product-listed/bg\ \(2\).png);
+    background-size: 1957px 1150px;
+    background-repeat: no-repeat;
+    background-position-y: -102px;
+    
+
+}
+.section-1{
+    text-align: center;
+    
+}
+.container-product{
+    width: 588px;
+    height: 235px;
+    margin: 120px auto 80px auto;
+}
+.title-h1{
+    font-size: 48px;
+    margin: 24px auto 24px auto;
+}
+.listed{
+    color: #00F5BC;
+}
+.title-description{
+    color: #0F172A;
+    font-size: 18px;
+    line-height: 28px;
+    padding-left: 49px;
+    padding-right: 49px;
+}
+
+
+.section-2{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 792px;
+    
+}
+.containers{
+    width: 792px;
+    height: 66px;
+    display: flex;
+    align-items: center;
+    
+    margin-bottom: 8px;
+    box-shadow:0px 4px 6px 1px #0F172A14;
+    background-color: #b9bbbb14;
+}
+.container-1{
+    display: flex;
+    width: 561px;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+    width: 229px;
+}
+
+.img-logo{
+    width: 32px;
+    height: 32px;
+}
+.coin-ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.coin-name{
+    font-size: 16px;
+    color: #424259;
+    padding-left: 10px;
+}
+.small-name{
+    font-size:16px ;
+    color: #75808A;
+    width: 60px;
+}
+.costs{
+    color: #0F172A;
+    font-size: 16px;
+    width: 120px;
+    padding-left: 48px;
+}
+.procent{
+    font-size: 16px;
+    color: #C63522;
+    padding-left: 8px;
+    width: 49px;
+}
+ .procent.positive{
+    color: #1FC039;
+}
+ 
+
+
+
+.more-details{
+    border: 1px solid #00F5BC;
+    border-radius: 30px;
+    padding: 8px 32px 8px 32px;
+    margin: 0px 24px 0px auto;
+}
+.link-more-details{
+    color: #0F172A;
+}
