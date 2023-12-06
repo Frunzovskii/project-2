@@ -218,70 +218,69 @@ h3{
 
 
 
-/* Media query for screens up to 767px width */
+
 @media only screen and (max-width: 767px) {
     body {
-        margin: 20px; /* Adjust margin for mobile */
+        margin: 20px;
     }
 
     .me {
-        width: 150px; /* Adjust width for mobile */
-        height: 150px; /* Adjust height for mobile */
-        border-radius: 50%; /* Circular */
-        margin: 20px auto; /* Adjust margin for mobile */
+        width: 150px; 
+        height: 150px; 
+        border-radius: 50%; 
+        margin: 20px auto;
     }
 
     .name {
-        font-size: 25px; /* Adjust font size for mobile */
-        margin-bottom: 10px; /* Adjust margin for mobile */
+        font-size: 25px; 
+        margin-bottom: 10px;
     }
 
     .work {
-        font-size: 18px; /* Adjust font size for mobile */
-        margin-bottom: 10px; /* Adjust margin for mobile */
+        font-size: 18px; 
+        margin-bottom: 10px;
     }
 
     .description-me {
-        font-size: 16px; /* Adjust font size for mobile */
-        width: 90%; /* Adjust width for mobile */
+        font-size: 16px; 
+        width: 90%; 
         margin: 0 auto;
-        margin-bottom: 10px; /* Adjust margin for mobile */
-        line-height: 20px; /* Adjust line-height for mobile */
+        margin-bottom: 10px;
+        line-height: 20px; 
     }
 
     .languages, .location {
-        font-size: 16px; /* Adjust font size for mobile */
-        margin-bottom: 10px; /* Adjust margin for mobile */
+        font-size: 16px; 
+        margin-bottom: 10px;
     }
 
     .network {
-        width: 120px; /* Adjust width for mobile */
+        width: 120px; 
         display: flex;
         justify-content: space-between;
         margin: 0 auto;
     }
 
     .icon-facebook, .icon-inst {
-        width: 24px; /* Adjust width for mobile */
-        height: 24px; /* Adjust height for mobile */
-        border-radius: 5px; /* Rounded */
+        width: 24px; 
+        height: 24px; 
+        border-radius: 5px; 
     }
 
     hr {
-        margin-top: 15px; /* Adjust margin for mobile */
-        margin-bottom: 10px; /* Adjust margin for mobile */
+        margin-top: 15px; 
+        margin-bottom: 10px;
     }
 
     .gmail {
-        font-size: 16px; /* Adjust font size for mobile */
+        font-size: 16px; 
         color: black;
         border-bottom: 1px solid black;
         padding-bottom: 1px;
     }
 
-    .container-gmail {
-        margin: 0 10px 0 auto; /* Adjust margin for mobile */
-        width: 180px; /* Adjust width for mobile */
+    .container-gmail { 
+        width: 180px;
     }
 
     a {
@@ -290,38 +289,38 @@ h3{
     }
 
     h2 {
-        font-size: 25px; /* Adjust font size for mobile */
-        padding-bottom: 15px; /* Adjust padding for mobile */
+        font-size: 25px; 
+        padding-bottom: 15px; 
     }
 
     li {
-        font-size: 18px; /* Adjust font size for mobile */
-        line-height: 30px; /* Adjust line-height for mobile */
+        font-size: 18px; 
+        line-height: 30px; 
     }
 
     ul {
-        padding-left: 20px; /* Adjust padding for mobile */
-        width: 100%; /* Full width for mobile */
+        padding-left: 20px; 
+        width: 100%; 
     }
 
     .section-2 {
-        padding-top: 50px; /* Adjust padding for mobile */
+        padding-top: 50px;
         display: flex;
         flex-wrap: wrap;
         background-image: url(sindica/assets/img-2/block.png);
-        background-position: -220px -345px; /* Adjust background position */
-        padding-bottom: 100px; /* Adjust padding for mobile */
+        background-position: -220px -345px; 
+        padding-bottom: 100px; 
     }
 
     .container-experience {
-        margin-bottom: 20px; /* Adjust margin for mobile */
-        width: 100%; /* Full width for mobile */
+        margin-bottom: 20px; 
+        width: 100%; 
         display: flex;
         flex-direction: column;
     }
 
     .objects {
-        width: 100%; /* Full width for mobile */
+        width: 100%; 
     }
 
     .description-obj {
