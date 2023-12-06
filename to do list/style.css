@@ -1,0 +1,111 @@
+       
+        body {
+            width: 100%;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXbkEuSNOmBQdtN5LgVZLY1IPLjwvjFY8hOdNP-KmF0vfsNNEhPIJ6BPN_ar1mzrBZ4xg&usqp=CAU);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            font-family: Arial, sans-serif;
+            
+            
+        }
+        .section-1{
+           margin: 0 auto;
+           width: 700px;
+           height: 350px;
+           background-color: rgb(18, 10, 43);
+           margin-top: 200px;
+           border-radius: 10px;
+           
+           
+        }
+        h1{
+            font-size: 32px;
+            color: aliceblue;
+            padding-top: 25px;
+            padding-left: 20px;
+        }
+
+        .todo {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            
+            padding-left: 20px;
+        }
+        
+        .todo-list li {
+            display: flex;
+            align-items: center;
+            color:aliceblue;
+            width: 550px;
+            height: 40px;
+            background-color: rgb(78, 33, 92);
+            margin-bottom: 15px;
+            border-radius: 3px;
+            list-style: none;
+            cursor: pointer;
+            padding-top: 5px;
+            padding-left: 10px;
+            
+        }
+        .todo-list li.active {
+            text-decoration: line-through;  
+            color: rgb(104, 99, 99);
+        }
+        .todo-list li.active::before {
+            content: url(/img/check_circle_FILL0_wght400_GRAD0_opsz24\ \(1\).svg);
+            margin-right: 5px;
+            }
+        .todo-list li::before{
+            content: url(/img/radio_button_unchecked_FILL0_wght400_GRAD0_opsz24.svg);
+            
+            
+            
+        }
+        
+        .add-task{
+            width: 570px;
+            height: 30px;
+            border: none;
+            border-bottom: 2px solid white;
+            background-color: rgba(18, 10, 43, 0.856);
+            font-size: 18px;
+            color: aliceblue;
+        
+            }
+            .bottom:hover{
+                cursor:pointer;
+            }
+        
+            .bottom{
+                font-size: 20px;
+                background-color: rgb(231, 80, 199);
+                padding: 10px 15px 10px 15px;
+                 border-radius: 30px;
+                border: none;
+                margin-left: 10px;
+                color: aliceblue;
+                
+            }
+            
+                input[type="text"]:focus {
+                    outline: none; 
+                }
+        
+        .delete{
+        background-image: url(/img/delete_FILL0_wght400_GRAD0_opsz24.svg);
+        background-repeat: no-repeat;
+        color: transparent;
+        border: none;
+        background-color: transparent;
+        position: relative;
+        list-style: none;
+        height: 25px;
+        margin: auto 2px auto auto;
+        float: right;
+        cursor: pointer;
+        }   
+            
+            
+    

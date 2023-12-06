@@ -1,0 +1,68 @@
+
+.todo-list li {
+    color:aliceblue;
+    width: 550px;
+    height: 40px;
+    background-color: rgb(78, 33, 92);
+    margin-bottom: 15px;
+    border-radius: 3px;
+    list-style: none;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-left: 10px;
+    
+}
+.todo-list li.active {
+    text-decoration: line-through;  
+    color: rgb(104, 99, 99);
+}
+.todo-list li.active::before {
+    content: url(/img/check_circle_FILL0_wght400_GRAD0_opsz24\ \(1\).svg);
+    margin-right: 5px;
+    }
+.todo-list li::before{
+    content: url(/img/radio_button_unchecked_FILL0_wght400_GRAD0_opsz24.svg);
+    
+    
+    
+}
+
+.add-task{
+    width: 570px;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: rgba(18, 10, 43, 0.856);
+    font-size: 18px;
+    color: aliceblue;
+
+    }
+    .bottom:hover{
+        cursor:pointer;
+    }
+
+    .bottom{
+        font-size: 20px;
+        background-color: rgb(231, 80, 199);
+        padding: 10px 15px 10px 15px;
+         border-radius: 30px;
+        border: none;
+        margin-left: 10px;
+        color: aliceblue;
+        
+    }
+    
+        input[type="text"]:focus {
+            outline: none; 
+        }
+
+.delete{
+background-image: url(/img/delete_FILL0_wght400_GRAD0_opsz24.svg);
+background-repeat: no-repeat;
+color: transparent;
+border: none;
+background-color: transparent;
+float: right;
+height: 25px;
+background-position-y: 2px;
+}   
