@@ -325,29 +325,29 @@ h3{
     }
 
     .description-obj {
-        font-size: 18px; /* Adjust font size for mobile */
-        line-height: 24px; /* Adjust line-height for mobile */
-        padding-left: 15px; /* Adjust padding for mobile */
+        font-size: 18px; 
+        line-height: 24px; 
+        padding-left: 15px; 
     }
     .main-containers,
     .main-container,
     .page {
         display: flex;
         flex-wrap: wrap;
-        width: 100%; /* Full width for mobile */
+        width: 100%; 
     }
 
     h3 {
-        width: 100%; /* Full width for mobile */
+        width: 100%; 
         font-size: 25px;
         padding-top: 15px;
         padding-left: 15px;
         color: rgb(204, 50, 50);
-        margin-top: 20px; /* Adjust margin for mobile */
+       
     }
 
     .numerotation {
-        width: 100%; /* Full width for mobile */
+        width: 100%; 
         font-size: 19px;
         line-height: 30px;
         list-style: none;
@@ -357,23 +357,23 @@ h3{
 
     .container-numerotation {
         padding-top: 20px;
-        margin-left: 0; /* Adjust margin for mobile */
-        width: 100%; /* Full width for mobile */
+        margin-left: 0; 
+        width: 100%; 
     }
 
     .page-1 {
         display: flex;
         flex-wrap: wrap;
-        width: 100%; /* Full width for mobile */
-        height: auto; /* Adjust height for mobile */
-        margin-left: 0; /* Adjust margin for mobile */
+        width: 100%; 
+        height: auto; 
+        margin-left: 0; 
     }
 
     .number-des {
-        font-size: 24px; /* Adjust font size for mobile */
-        padding: 8px 16px; /* Adjust padding for mobile */
-        border-radius: 50%; /* Rounded */
+        
+        padding: 8px 16px; 
+        border-radius: 50%; 
         font-weight: 700;
-        margin: 5px; /* Adjust margin for mobile */
+        margin: 5px; 
     }
 }
